@@ -1,0 +1,101 @@
+#title{
+    background-color: #ff4c68;
+}
+.container-fluid{
+    padding: 3% 15% 3%;
+}
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#fff;
+    position:relative:
+}
+.h3{
+    font-family: cursive;
+    font-weight: 200;
+}
+.Features{
+    color: aqua;
+}
+.Features:hover{
+    color: cadetblue;
+}
+#testimonials{
+    background-color:lightseagreen;
+    text-align: center;
+}
+.testimonials-img{
+    border-radius: 100%;
+    width: 20%;
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#press{
+    background-color: rgb(247, 176, 44);
+    text-align: center;
+    padding: 10%;
+}
+.press-img{
+    width: 20%;
+    margin: 0% 2%;
+}
+.carousel-item{
+    height: 500px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.title-image{
+    width: 60%;
+    transform: rotateX(15deg);
+    transform: rotateX(20deg);
+    position: relative;
+}
+@media (max-width:1028px){
+    .title-image{
+        position: static;
+
+    }
+    .row{
+        text-align: center;
+    }
+}
+
+
+/* cta section */
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    color: #fff;
+    text-align: center;
+    
+    
+}
+.cta-heading{
+    
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.btn{
+    padding: 0% 5%;
+}
+.fab{
+    padding: left 10px;;
+}
+
+
+/* fotter section */
+#footer{
+    padding: 5% 15%;
+    text-align: center;
+    
+}
+.social-icons{
+    padding: 2% 3%;
+    cursor: pointer;
+}
